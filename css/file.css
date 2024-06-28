@@ -1,0 +1,12 @@
+/*上传文件的样式*/
+.file {
+    background: #D0EEFF;
+    border-radius: 4px;
+}
+
+.file:hover {
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #004974;
+    text-decoration: none;
+}

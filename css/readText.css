@@ -1,0 +1,13 @@
+/*公告标题*/
+.title {
+    text-align: center;
+    margin: 0 auto;
+    line-height: 50px;
+}
+
+/*公告正文*/
+.text {
+    border-top: 1px #a8abaf dashed;
+    padding: 20px 0 20px 0;
+    margin: 0 25px 0 25px;
+}

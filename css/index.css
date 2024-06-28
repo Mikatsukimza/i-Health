@@ -1,0 +1,19 @@
+html,body{
+    background-image: linear-gradient(to right, #DCEEF3, #C2E2EA, #A7D5E1, #C2E2EA, #DCEEF3);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.title{
+    margin-top: 100px;
+    margin-left: 40%;
+}
+.container{
+    margin-top: 100px;
+    margin-left: 30%;
+}
+.container h3 > a{
+    color:#1b4965;
+}

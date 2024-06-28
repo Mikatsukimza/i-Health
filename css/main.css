@@ -1,0 +1,103 @@
+@import url(fontawesome-all.min.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+
+body {
+  color: #7f888f;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13pt;
+  font-weight: 400;
+  line-height: 1.65;
+}
+
+a:hover {
+  border-bottom-color: #f56a6a;
+  color: #f56a6a !important;
+}
+
+
+/*导航*/
+.sidebar>ul,
+.sidebar>ul>li>ul {
+  width: 100%;
+}
+
+.sidebar>ul>li {
+  border-top: solid 1px rgba(210, 215, 217, 0.75);
+  margin: 0.5em 0 0 0;
+  padding: 0.5em 0 0 0;
+}
+
+.sidebar {
+  position: fixed;
+  top: 51px;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  padding: 20px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* background-color: #1b4965; */
+  background-image: linear-gradient(to bottom, #1b4965, #7a9cc6, #1b4965);
+  border-right: 1px solid #eee;
+  height: 100vh;
+}
+
+#sidebar {
+  text-align: center;
+  font-size: 20px;
+}
+
+#sidebar>a>img {
+  height: 8vw;
+  width: 8vw;
+  margin-top: 50px;
+  border-radius: 100%;
+}
+
+/*板块内容*/
+.main {
+  margin-top: 100px;
+  height: 100vh;
+}
+
+/*公告编辑的表单*/
+#search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/*公告的标题链接*/
+#notice_table a {
+  color: black;
+}
+
+.caption {
+  text-align: center;
+}
+
+.row div {
+  border: none;
+}
+
+nav.navbar.navbar-inverse.navbar-fixed-top {
+  background-color: #7a9cc6;
+  border: none;
+}
+
+button.btn.btn-warning {
+  border: none;
+}
+
+button#sign {
+  border: none;
+}
